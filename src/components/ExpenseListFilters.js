@@ -17,7 +17,7 @@ export class ExpenseListFilters extends React.Component{
             calendarFocused
         }));
     }
-    onTextChange = (e)=>{
+    onTextChange = (e)=> {
         this.props.setTextFilter(e.target.value);
         };
     onSortChange = (e)=>{
